@@ -10,7 +10,7 @@ template = (
     "4. **Direct Data Only:** Your output should contain only the data that is explicitly requested, with no other text."
 )
 
-model = OllamaLLM(model="codellama",device="cpu")
+model = OllamaLLM(model="codellama")
 
 def parse(dom_chunks, parse_description):
     prompt = ChatPromptTemplate.from_template(template)
