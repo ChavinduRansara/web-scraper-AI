@@ -23,8 +23,26 @@ This project is a web scraping tool built with Python, Selenium, BeautifulSoup, 
 ## Installation
 
 1. Clone the repository:
+   ```
+   git clone https://github.com/ChavinduRansara/web-scraper-AI.git
+   cd web-scraper-AI
+   ```
+
 2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 3. Install and Configure Selenium:
-4. CUDA and GPU Setup:
+   
+   Download the appropriate WebDriver for your browser and place it in the project directory. For example, you can download the ChromeDriver from [here](https://googlechromelabs.github.io/chrome-for-testing/#stable).
+
+   Ensure that the path to the driver is correctly set in the scrape.py file:
+
+   ```
+   chrome_driver_path = "./chromedriver.exe"
+
+   ```
+
+5. CUDA and GPU Setup:
 
     If you plan to use a GPU for faster model inference, ensure that you have CUDA and cuDNN properly installed. Follow the [CUDA Installation Guide](https://developer.nvidia.com/cuda-downloads) if necessary.
