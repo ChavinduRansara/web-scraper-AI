@@ -46,3 +46,24 @@ This project is a web scraping tool built with Python, Selenium, BeautifulSoup, 
 5. CUDA and GPU Setup:
 
     If you plan to use a GPU for faster model inference, ensure that you have CUDA and cuDNN properly installed. Follow the [CUDA Installation Guide](https://developer.nvidia.com/cuda-downloads) if necessary.
+
+## Start the Streamlit Application
+
+```
+streamlit run main.py
+
+```
+## Dependencies
+
+- Python 3.8+
+- [Streamlit](https://streamlit.io/)
+- [Selenium](https://www.selenium.dev/)
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- [OllamaLLM](https://ollama.ai/)
+
+## Troubleshooting
+
+- **CUDA Errors**: If you encounter CUDA errors, ensure you have installed the correct version of CUDA and that it is added to your system's PATH. You can also switch to CPU-based processing if GPU resources are unavailable or insufficient.
+    
+- **Selenium WebDriver Issues**: Ensure that the correct WebDriver (e.g., ChromeDriver) is installed and compatible with your browser version.
+
