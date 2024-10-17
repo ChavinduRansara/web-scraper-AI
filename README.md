@@ -40,7 +40,6 @@ This project is a web scraping tool built with Python, Selenium, BeautifulSoup, 
 
    ```
    chrome_driver_path = "./chromedriver.exe"
-
    ```
 
 5. CUDA and GPU Setup:
@@ -51,7 +50,6 @@ This project is a web scraping tool built with Python, Selenium, BeautifulSoup, 
 
 ```
 streamlit run main.py
-
 ```
 ## Dependencies
 
